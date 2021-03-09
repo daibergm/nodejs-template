@@ -4,8 +4,9 @@
   "description": "Template to start a new project using nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon",
     "build": "tsc",
+    "lint": "tsc --noEmit && eslint src/**/*.ts",
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
