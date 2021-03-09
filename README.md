@@ -32,9 +32,15 @@ This is a basic template to start a new project with NodeJs using TypeScript, Ex
     # or
     npm run build
     ```
-  - Run the project:
+  - Run the project from build folder:
     ```bash
     node build/index.js
+    ```
+  - Run the project to watch changes with nodemon:
+    ```bash
+    npm run start
+    #or
+    yarn start
     ```
   - In your console you should see: `Server is listening on port 3000!`
   - You can test the server by using curl:
