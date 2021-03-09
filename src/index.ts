@@ -5,8 +5,8 @@ const app: Application = express();
 const port = 3000;
 
 // Application routing
-app.use('/', (req: Request, res: Response, next: NextFunction ) => {
-  res.status(200).send({data: 'Hello World!'});
+app.use('/', (req: Request, res: Response, next: NextFunction) => {
+  res.status(200).send({ data: 'Hello World!' });
 });
 
 // Start server
