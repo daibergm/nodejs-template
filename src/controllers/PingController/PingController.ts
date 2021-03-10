@@ -1,10 +1,4 @@
-import { NextFunction, Request, Response, Router } from 'express';
+import { Request, Response, Router } from 'express';
 export const PingController: Router = Router();
 
-PingController.get('/', (req: Request, res: Response, next: NextFunction) => {
-  try {
-    res.status(200).send({ data: 'Pong!' });
-  } catch (error) {
-    next(error);
-  }
-});
+PingController.get('/', (req: Request, res: Response) => res.status(200).send({ data: 'Pong!' }));
