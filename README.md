@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This is a basic template to start a new project with NodeJs using TypeScript, Express, Jest, Eslint, Prettier and Nodemon.
+This is a basic template to start a new project with NodeJs using TypeScript, Express, Jest, Eslint, Prettier, Husky and Nodemon.
 
 ### Requirements
 
@@ -48,3 +48,15 @@ This is a basic template to start a new project with NodeJs using TypeScript, Ex
     curl localhost:3000
     ```
   - It should return `{"data":"Hello World!"}`
+  - To run test, execute this command:
+    ```bash
+    yarn test
+    #or
+    npm run test
+    ```
+  - To run lint, execute this command:
+    ```bash
+    yarn lint
+    #or
+    npm run lint
+    ```
