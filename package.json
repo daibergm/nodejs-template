@@ -1,6 +1,6 @@
 {
   "name": "node-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Template to start a new project using nodejs",
   "main": "index.js",
   "scripts": {
